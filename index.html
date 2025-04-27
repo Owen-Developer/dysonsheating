@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/515deb5b82.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"> <!-- favicon.png -->
+    <title>Dyson Heating | Plumbing and Heating in Eastbourne</title>
+</head>
+<body>
+    <div class="menu-container">
+        <a href="index.html"><div class="menu-section menu-dark">Home</div></a>
+        <div class="menu-section">
+            <div class="menu-flex" onclick="mobileServices()">
+                <div class="menu-txt">Services</div>
+                <i class="fa-solid fa-angle-down menu-arrow"></i>
+            </div>
+            <div class="menu-serv">
+                <a href="boiler-servicing.html" class="menu-serv-link">Boiler Servicing</a>
+                <a href="bathrooms.html" class="menu-serv-link">Bathroom Design & Installation</a>
+                <a href="heating-systems.html" class="menu-serv-link">Heating Systems</a>
+                <a href="radiators.html" class="menu-serv-link">Radiator Supply & Installation</a>
+                <a href="underfloor-heating.html" class="menu-serv-link">Underfloor Heating</a>
+                <a href="repair-work.html" class="menu-serv-link last-serv-link">Repair Work</a>
+            </div>
+        </div>
+        <a href="gas-safe-info.html"><div class="menu-section menu-dark">Gas Safe Info</div></a>
+        <a href="renewable-energy.html"><div class="menu-section">Renewable Energy</div></a>
+        <a href="gallery.html"><div class="menu-section menu-dark">Gallery</div></a>
+        <a href="contact.html"><div class="menu-section">Contact</div></a>
+    </div>
+
+    <div class="header-top">
+        <div class="header-top-flex">
+            <div class="top-flex">
+                <i class="fa-solid fa-envelope top-icon"></i>
+                <div class="top-col">
+                    <div class="top-label">Email Us:</div>
+                    <a href="mailto:info@dysonheating.co.uk" class="top-link">info@dysonsheating.co.uk</a>
+                </div>
+            </div>
+            <div class="top-hr"></div>
+            <div class="top-flex">
+                <i class="fa-solid fa-phone top-icon"></i>
+                <div class="top-col">
+                    <div class="top-label">Call Us:</div>
+                    <a href="tel:07768961571" class="top-link">07768961571</a>
+                </div>
+            </div>
+            <div class="top-hr phone2"></div>
+            <div class="top-flex phone2">
+                <i class="fa-solid fa-phone top-icon"></i>
+                <div class="top-col">
+                    <div class="top-label">Call Us:</div>
+                    <a href="tel:01323 732161" class="top-link">01323 732161</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-low">
+        <div class="header-low-flex">
+            <a href="index.html"><img src="images/main-logo.png" class="header-logo" /></a>
+            
+            <div class="low-nav">
+                <div class="low-link-box link-box-active">
+                    <a href="index.html" class="low-link">Home</a>
+                </div>
+                <div class="low-link-box link-box-hover services-toggle" onclick="openServices()">
+                    <div class="low-link">Services</div>
+                    <i class="fa-solid fa-angle-down link-arrow"></i>
+
+                    <div class="serv-nav">
+                        <a href="boiler-servicing.html" class="serv-link">Boiler Servicing</a>
+                        <a href="bathrooms.html" class="serv-link">Bathroom Design & Installation</a>
+                        <a href="heating-systems.html" class="serv-link">Heating Systems</a>
+                        <a href="radiators.html" class="serv-link">Radiator Supply & Installation</a>
+                        <a href="underfloor-heating.html" class="serv-link">Underfloor Heating</a>
+                        <a href="repair-work.html" class="serv-link last-serv-link">Repair Work</a>
+                    </div>
+                </div>
+                <div class="low-link-box link-box-hover">
+                    <a href="gas-safe-info.html" class="low-link">Gas Safe Info</a>
+                </div>
+                <div class="low-link-box link-box-hover">
+                    <a href="renewable-energy.html" class="low-link">Renewable Energy</a>
+                </div>
+                <div class="low-link-box link-box-hover">
+                    <a href="gallery.html" class="low-link">Gallery</a>
+                </div>
+                <div class="low-link-box link-box-hover">
+                    <a href="contact.html" class="low-link">Contact</a>
+                </div>
+            </div>
+
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="menu-line line1"></div>
+                <div class="menu-line line2"></div>
+                <div class="menu-line line3"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-container">
+        <div class="home-img-container">
+            <img src="images/hero-img5.png" class="home-img" style="opacity: 1;" />
+            <img src="images/hero-img6.jpg" class="home-img" />
+            <img src="images/hero-img2.jpg" class="home-img" />
+            <img src="images/hero-img4.png" class="home-img" />
+        </div>
+
+        <div class="home-content starter">
+            <div class="home-title">Dysons Heating Ltd<br> <span class="home-title">Plumbing & Heating</span></div>
+            <div class="home-para">Dysons Plumbing and Heating has over 30 years experience in the Plumbing, Heating and Gas industry. We offer domestic and light commercial service's and our work is to the highest of standards.</div>
+            <div class="home-btn-flex">
+                <a href="#about"><div class="btn-home">About Us <img src="https://framerusercontent.com/images/KGBGzYWGFzd2YuqSAtLBdE3Y.svg" class="home-arrow" /></div></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="serv-container">
+        <div class="serv-top">
+            <div class="serv-content">
+                <div class="serv-head">What We Offer</div>
+                <div class="serv-title">Reliable plumbing <br>and heating services</div>
+            </div>
+            <div class="serv-para-col">
+                <div class="serv-para">We offer expert plumbing and heating services tailored to homes and businesses. From installations to repairs, trust us to deliver reliable, efficient solutions every time.</div>
+                <div class="serv-para-border"></div>
+            </div>
+        </div>
+
+        <div class="serv-all">
+
+            <div class="serv-flex serv-pop">
+                    <div class="serv-card">
+                        <img src="images/services/boiler.png" class="serv-icon" />
+                        <div class="serv-label">Boiler Servicing</div>
+                        <div class="serv-desc">Ensure your boiler runs efficiently with expert servicing to prevent breakdowns and keep your home warm all year round.</div>
+                        <a href="boiler-servicing.html" class="serv-learn">Learn More</a>
+                    </div>
+                    <div class="serv-card">
+                        <img src="images/services/bathroom.png" class="serv-icon" />
+                        <div class="serv-label">Bathrooms</div>
+                        <div class="serv-desc">Upgrade your bathroom with professional installation and high-quality fixtures for a functional, stylish space.</div>
+                        <a href="bathrooms.html" class="serv-learn">Learn More</a>
+                    </div>
+                <div class="serv-card">
+                <img src="images/services/air-conditioning.png" class="serv-icon" />
+                <div class="serv-label">Heating Systems</div>
+                <div class="serv-desc">Keep your heating system in top condition with our installation and maintenance services for optimal comfort and energy efficiency.</div>
+                <a href="heating-systems.html" class="serv-learn">Learn More</a>
+            </div>
+        </div>
+        <div class="serv-flex serv-pop">
+            <div class="serv-card">
+                <img src="images/services/heater.png" class="serv-icon" />
+                <div class="serv-label">Radiators</div>
+                <div class="serv-desc">We provide radiator installation and servicing to ensure reliable performance and consistent heating throughout your home.</div>
+                <a href="radiators.html" class="serv-learn">Learn More</a>
+            </div>
+            <div class="serv-card">
+                <img src="images/services/underfloor.png" class="serv-icon" />
+                <div class="serv-label">Underfloor Heating</div>
+                <div class="serv-desc">Enjoy even warmth with our expert underfloor heating installation, offering comfort and energy savings throughout your home.</div>
+                <a href="underfloor-heating.html" class="serv-learn">Learn More</a>
+            </div>
+            <div class="serv-card">
+                <img src="images/services/repair.png" class="serv-icon" />
+                <div class="serv-label">Repair Work</div>
+                <div class="serv-desc">Fast and reliable plumbing and heating repairs to get your systems back to full function quickly and efficiently.</div>
+                <a href="repair-work.html" class="serv-learn">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    </div>    
+
+    <div class="abt-bg">
+    <div class="abt-container" id="about">
+        <div class="abt-content scroll-target">
+            <div class="abt-head">About Us</div>
+            <div class="abt-title">Trusted Experts in Heating and Plumbing Solutions</div>
+            <div class="abt-para">Dysons Plumbing and Heating has over 30 years experience in the Plumbing, Heating and Gas industry. We offer domestic and light commercial services and our work is to the highest of standards.</div>
+            <div class="abt-benefit">
+                <div class="tick-wrapper">
+                    <i class="fa-solid fa-check benefit-tick"></i>
+                </div>
+                <div class="benefit-txt">Fully qualified and experienced technicians.</div>
+            </div>
+            <div class="abt-benefit">
+                <div class="tick-wrapper">
+                    <i class="fa-solid fa-check benefit-tick"></i>
+                </div>
+                <div class="benefit-txt"><a href="https://www.gassaferegister.co.uk/">Gas Safe registered</a> for your safety.</div>
+            </div>
+            <div class="abt-benefit">
+                <div class="tick-wrapper">
+                    <i class="fa-solid fa-check benefit-tick"></i>
+                </div>
+                <div class="benefit-txt">Renewable energy solutions available at request.</div>
+            </div>
+            <div class="abt-benefit">
+                <div class="tick-wrapper">
+                    <i class="fa-solid fa-check benefit-tick"></i>
+                </div>
+                <div class="benefit-txt">Trusted by local homeowners and businesses.</div>
+            </div>
+            <a href="contact.html">
+            <div class="btn-abt">Contact Us <i class="fa-solid fa-arrow-right-long abt-arrow"></i></div>
+            </a>
+        </div>
+
+        <div class="abt-img-holder scroll-target">
+            <img src="images/abt-img4.png" class="abt-img" />
+            <div class="abt-img-holder2">
+                <img src="images/abt-img3.png" class="abt-img2" />
+            </div>
+        </div>
+        <!-- 
+            <div class="abt-stats scroll-target">
+                <div class="stat-flex">
+                    <div class="stat-box">
+                        <div class="stat-head">30+ Years</div>
+                    <div class="stat-txt">Of delivering reliable heating and plumbing services.</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-head">400+ Repairs</div>
+                    <div class="stat-txt">Efficient repairs fixing plumbing and heating issues.</div>
+                </div>
+            </div>
+            <div class="stat-flex">
+                <div class="stat-box">
+                    <div class="stat-head">20+ Awards</div>
+                    <div class="stat-txt">Recognized for excellence in service and innovation.</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-head">99% Success</div>
+                    <div class="stat-txt">Trusted by customers for long-term service.</div>
+                </div>
+            </div>
+        </div>
+        -->
+    </div>
+</div>
+
+    <div class="ren-container scroll-target" id="renewable">
+        <div class="ren-img-container">
+            <img src="images/ren-img.png" class="ren-img" />
+        </div>
+
+        <div class="ren-content">
+            <div class="ren-head">Renewable Energy</div>
+            <div class="ren-title">Power Your Home Sustainably With<br> Expert Renewable Solutions</div>
+            <div class="ren-para">Renewable energy systems are a brilliant alternative to traditional heating systems. They are great for the planet as they have lower carbon emissions and use renewable energy which therefore saves you money on your energy bills. We are proud to work closely alongside a company which provides air source heat pumps.</div>
+            <a href="renewable-energy.html">
+                <div class="btn-ren">Discover More <i class="fa-solid fa-arrow-right-long ren-arrow"></i></div>
+            </a>
+        </div>
+    </div>
+    <div class="inf-flex serv-pop">
+        <div class="inf-box">
+            <div class="inf-top">
+                <img src="images/info icons/inf1.png" class="inf-icon" />
+                <div class="inf-title">Eco-Friendly Solutions</div>
+            </div>
+            <div class="inf-hr"></div>
+            <div class="inf-para">Our eco-friendly solutions help reduce energy consumption, lower costs, and promote a sustainable, greener future.</div>
+        </div>
+        <div class="inf-box">
+            <div class="inf-top">
+                <img src="images/info icons/inf2.png" class="inf-icon" />
+                <div class="inf-title">Save on Energy Bills</div>
+            </div>
+            <div class="inf-hr"></div>
+            <div class="inf-para">Our energy-efficient solutions help reduce consumption, leading to lower monthly bills and long-term savings.</div>
+        </div>
+        <div class="inf-box">
+            <div class="inf-top">
+                <img src="images/info icons/inf3.png" class="inf-icon" />
+                <div class="inf-title">Effortless Installation</div>
+            </div>
+            <div class="inf-hr"></div>
+            <div class="inf-para">Our team ensures fast, seamless installation of your heating and plumbing systems with minimal disruption.</div>
+        </div>
+    </div>
+
+    <div class="gal-container" id="photos">
+        <div class="scroll-target">
+            <div class="gal-head">Gallery</div>
+            <div class="gal-title">Our Work in Action</div>
+            <div class="gal-para">Browse our gallery to see the quality of our plumbing and heating work. From small repairs to larger installations, each project shows our attention to detail and professional standards.</div>
+            <div class="gal-hr"></div>
+        </div>
+
+        <div class="scroll-target">
+            <div class="gal-img-container gal-flex1">
+                <img src="images/gallery/gal_5.png" class="gal-img1" />
+                <img src="images/gallery/gal_8.png" class="gal-img1" />
+                <img src="images/gallery/gal_10.png" class="gal-img1" />
+                <img src="images/gallery/gal_20.png" class="gal-img1" />
+                <img src="images/gallery/gal_36.png" class="gal-img1" />
+
+                <img src="images/gallery/gal_5.png" class="gal-img1" />
+                <img src="images/gallery/gal_8.png" class="gal-img1" />
+                <img src="images/gallery/gal_10.png" class="gal-img1" />
+                <img src="images/gallery/gal_20.png" class="gal-img1" />
+                <img src="images/gallery/gal_36.png" class="gal-img1" />
+            </div>
+            <div class="gal-img-container gal-flex2">
+                <img src="images/gallery/hgal_1.png" class="gal-img2" />
+                <img src="images/gallery/hgal_2.png" class="gal-img2" />
+                <img src="images/gallery/hgal_3.png" class="gal-img2" />
+                <img src="images/gallery/hgal_4.png" class="gal-img2" />
+                <img src="images/gallery/hgal_5.png" class="gal-img2" />
+                <img src="images/gallery/hgal_6.png" class="gal-img2" />
+
+                <img src="images/gallery/hgal_1.png" class="gal-img2" />
+                <img src="images/gallery/hgal_2.png" class="gal-img2" />
+                <img src="images/gallery/hgal_3.png" class="gal-img2" />
+                <img src="images/gallery/hgal_4.png" class="gal-img2" />
+                <img src="images/gallery/hgal_5.png" class="gal-img2" />
+                <img src="images/gallery/hgal_6.png" class="gal-img2" />
+            </div>
+        </div>
+
+            <a href="gallery.html">
+                <div class="btn-gal scroll-target">Full Gallery <i class="fa-solid fa-arrow-right-long gal-arrow"></i></div>
+            </a>
+    </div>
+
+    <div class="foot-container" id="contact">
+        <div class="foot-flex">
+            <div class="foot-col">
+                <img src="images/main-logo.png" class="foot-img" />
+                <div class="foot-para">Dysons Plumbing and Heating has over 30 years’ experience in plumbing, heating, and gas. We offer domestic and light commercial services to the highest standards.</div>
+                <div class="foot-social-flex">
+                    <a href="mailto:info@dysonheating.co.uk" class="foot-social"><i class="fa-regular fa-envelope foot-social-icon"></i></a>
+                    <a href="https://www.facebook.com/dysonsheatingltd/" class="foot-social"><i class="fa-brands fa-facebook-f foot-social-icon"></i></a>
+                    <a href="https://www.linkedin.com/company/dysons-heating-limited" class="foot-social"><i class="fa-brands fa-linkedin-in foot-social-icon"></i></a>
+                    <a href="https://www.instagram.com/dysons_heating/" class="foot-social"><i class="fa-brands fa-instagram foot-social-icon"></i></a>
+                </div>
+            </div>
+            <div class="foot-col">
+                <div class="foot-label">Our Services</div>
+                <a href="boiler-servicing.html" class="foot-link">Boiler Servicing</a>
+                <a href="bathrooms.html" class="foot-link">Bathrooms</a>
+                <a href="heating-systems.html" class="foot-link">Heating Systems</a>
+                <a href="radiators.html" class="foot-link">Radiator Servicing</a>
+                <a href="underfloor-heating.html" class="foot-link">Underfloor Heating</a>
+                <a href="repair-work.html" class="foot-link">Repair Work</a>
+            </div>
+            <div class="foot-col">
+                <div class="foot-label">Useful Links</div>
+                <a href="https://www.facebook.com/dysonsheatingltd/" class="foot-link">Facebook</a>
+                <a href="http://www.gassaferegister.co.uk/" class="foot-link">Gas Safe Check</a>
+                <div class="foot-link">VAT Reg No: <span class="foot-link">936&#8203; 7472&#8203; 86</span></div>
+                <div class="foot-link">Gas Safe Reg No: <span class="foot-link">217267</span></div>
+            </div>
+            <div class="foot-col">
+                <div class="foot-label">Contact Us</div>
+                <div class="foot-cont">
+                    <i class="fa-solid fa-location-dot foot-icon"></i>
+                    <div class="foot-link">11 Burrow Down Eastbourne East Sussex BN20 8ST</div>
+                </div>
+                <div class="foot-cont">
+                    <i class="fa-solid fa-envelope foot-icon"></i>
+                    <a href="mailto:info@dysonheating.co.uk" class="foot-link">info@dysonsheating.co.uk</a>
+                </div>
+                <div class="foot-cont">
+                    <i class="fa-solid fa-phone foot-icon"></i>
+                    <a href="tel:07768961571" class="foot-link">07768961571</a>
+                </div>
+                <div class="foot-cont">
+                    <i class="fa-solid fa-phone foot-icon"></i>
+                    <a href="tel:01323 732161" class="foot-link">01323 732161</a>
+                </div>
+            </div>
+        </div>
+        <div class="foot-hr"></div>
+
+        <div class="foot-copy">Copyright © Dysons Heating Ltd 2025. All Rights Reserved</div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
