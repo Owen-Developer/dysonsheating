@@ -48,7 +48,7 @@ function sendVerificationEmail(data) {
 app.post("/send", (req, res) => {
     sendVerificationEmail(req.body);
 
-    res.redirect("/thank-you.html");
+    res.redirect("https://dysonsheating.co.uk//thank-you.html");
 });
 
 app.listen(port, () => {
