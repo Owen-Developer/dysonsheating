@@ -6,7 +6,7 @@ app.use(express.urlencoded({ extended: true }));
 const nodemailer = require('nodemailer');
 require('dotenv').config();
 
-app.use(express.static('public'));
+app.use(express.static('docs'));
 
 
 const transporter = nodemailer.createTransport({
